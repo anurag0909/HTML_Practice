@@ -1,0 +1,23 @@
+body{
+  background-color: Gold
+}
+h1 {
+  font-family: cursive;
+  text-align: center;
+  color: blue;
+  text-transform: capitalize;
+}
+
+p {
+  font-size:15px;
+  font-family: monospace;
+  color: purple;
+  line-height: 500%;
+  text-indent: 200px;
+  word-spacing: 40px;
+}
+
+
+/* <!-this is to provide specified space before the first work in the pararaph -->
+
+<!-this is to provide space between each word in a paragraph --> */

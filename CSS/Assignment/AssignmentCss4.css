@@ -1,0 +1,92 @@
+body {
+  background-color: #ccff99;
+}
+
+.headText {
+  width: inherit;
+  height: 50px;
+  position: relative;
+  top: 10px;
+  border:7px solid blue;
+  border-radius: 20px;
+}
+.headText > h2 {
+  position: relative;
+  top: -8px;
+  text-align: center;
+}
+.pageDesc {
+  position: relative;
+  top: 20px;
+  background-color:  #ffff66;
+  width: inherit;
+  height: 100px;
+}
+.descbackground > h2 {
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+
+.carImg {
+  position: relative;
+  top: 50px;
+  height: 280px;
+  width: 900px;
+  border: 3px solid red;
+}
+
+img {
+  filter: grayscale(100%);
+}
+
+img:hover {
+  filter: grayscale(0%);
+}
+
+#car1 {
+  float: left;
+  position: relative;
+  top: 10px;
+  left: 5px;
+  height: 15rem;
+}
+
+#car2 {
+  float: left;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  height: 15rem;
+}
+
+.carNames {
+  position: relative;
+  display: none;
+  top: 30px;
+  font-weight: bold;
+}
+
+.carNames > p {
+  float: left;
+  left: 20px;
+  padding-right: 350px ;
+}
+
+.carImg:hover .carNames {
+  display: block;
+}
+
+.footer {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  background-color:  #ffbf80;
+  width: 530px;
+  height: 30px;
+}
+.footertext {
+  position: relative;
+  top: 5px;
+  left: 10px;
+}

@@ -1,0 +1,68 @@
+body {
+  background-color: #1a0000	;
+}
+
+.headertext {
+  color: white;
+  font-family: cursive;
+  position:fixed;
+  left:500px;
+  right:50px;
+}
+
+.containerdiv {
+  position: relative;
+  top: 100px;
+  left: 300px;
+  background-color: black;
+  width: 700px;
+  height: 400px;
+}
+
+.imagediv {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  background-color: #1f1414;
+  width: 280px;
+  height: 320px;
+}
+
+#hpimg {
+  position: relative;
+  top: 30px;
+  left: 40px;
+  width: 65%;
+}
+
+.imgdescdiv {
+  position: relative;
+  left: 380px;
+  bottom: 280px;
+  background-color: #1c1717;
+  width: 280px;
+  height: 320px;
+}
+
+#comingSoonimg {
+  position: relative;
+  top: 60px;
+  left: 45px;
+  width: 70%;
+}
+
+.footer {
+  position: fixed;
+  width: 400px;
+  height: 40px;
+  background-color: #240f0f;
+  bottom: 20px;
+  left: 25px;
+  color: white;
+}
+
+.footertext {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}

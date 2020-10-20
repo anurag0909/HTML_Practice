@@ -1,0 +1,19 @@
+body {
+  background-color: gold
+}
+h1 {
+  color: blue;
+  text-shadow: 4px 3px #FFF3D4;
+  text-align: center;
+  font-family: cursive;
+  line-height: 40px
+
+}
+
+p {
+  line-height: 20px;
+  color: red;
+  font-size: 20px;
+  font-family: monospace;
+  font-style: italic;
+}
